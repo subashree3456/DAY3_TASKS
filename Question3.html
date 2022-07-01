@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between Window, Screen and Document in Javascript</title>
+    <style>
+table tr,td,th
+{
+    border : 1px solid black;
+
+}
+
+    </style>
+</head>
+<body>
+    <p> <b> Window, Screen and Document in Javascript : </b></p>
+    <table>
+<tr>
+    <th>Window</th>
+    <th>Screen</th>
+    <th>Document</th>
+</tr>
+
+<tr>
+    <td> The JavaScript window object sits at the top of the JavaScript Object hierarchy 
+        and represents the browser window.</td>
+        <td> Screen is a small information object about physical screen dimensions . </td>
+        <td> The Document interface represents any web page loaded in the browser and serves as an entry
+             point into the web page's content, which is the DOM tree.</td>
+</tr>
+
+
+<tr>
+    <td> All global JavaScript objects , functions, and variables automatically become members of the window object. 
+        The window is the first thing that gets loaded into the browser </td>
+        <td> It can be used to display screen width, height, colorDepth, pixelDepth etc.</td>
+<td> When an HTML document is loaded into a web browser , it becomes a document object.</td>
+
+
+
+<tr>
+  <td> The window object represents the current browsing context . It holds things like window.location, window.history, 
+    window.screen, window.status, or the window.document .</td>
+    <td>  It is not mandatory to write window prefix with screen object. It can be written without window prefix.</td> 
+    <td> It is the root node of the HTML document. The document actually gets loaded inside the window object and has properties
+         available to it like title, URL, cookie, etc.</td> 
+</tr>
+
+
+<tr>
+<td> window is the root of everything.</td>
+<td> screen just has screen dimensions.</td>
+<td> document is top DOM object.</td>
+
+</tr>
+
+
+    </table>
+    
+</body>
+</html>
